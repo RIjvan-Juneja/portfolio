@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f909441554.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Work</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p class="full">Full Stack Web-Developer</p>
+                <img src="images/IMG_20230223_203640.JPG" alt="profile photo" id="pro">
+                <h1>Hi, I'm <span class="auto-type" style="color: rgb(235, 105, 12);">Rijvan Juneja</span></h1>
+                <!-- <div class="cm"><a href="#contact"> Join Team</a></div> -->
+                <p class="propra">From Talaja, I am a motivated full stack developer actively seeking job opportunities and eager to further enhance my skills in the field</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20230223_212856.JPG" alt="gh">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="margin-top: 12px; letter-spacing: 1px;" class="aboutrijvan"> Hello, I am Rijvan. I pursuing B.E In
+                        Information Technology, My graduation will complete 2024,
+                        and i learnt programming language like C, Java , MySql. I am very passionate about technology
+                        specially about programming language. Therefore, I learn web development, Currently i pursuing
+                        graduation and self learning front end & back end development. After few months, I was able to
+                        get
+                        my hands on various technologies like HTML5, CSS3 , JAVASCRIPT , NodeJS , Python, MongoDB , and
+                        React & Redux.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DSA</span><br>I very familar with Java programming</li>
+                            <li><span>Web-Developer</span><br> HTML5 | CSS3 | JAVASCRIPT </li>
+                            <li><span>Backend development </span><br> MySql | PHP | JAVA | MongoDB </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>College learning | web development</li>
+                            <li><span>2021-2022</span><br>Data Structure And Algorithms</li>
+                            <li><span>2022-still</span><br>backend development | Web-projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E Pushing</span><br>Gyanmanjari Institude Of Technology</li>
+                            <li><span>Course</span><br>Information Technology</li>
+                            <li><span>Programes</span><br>Web-Development<br> Leet-Code : Competative
+                                Programming</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------Services------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Implemented websites, mobile applications, and landing pages from concept through deployment.
+                        Standardized all output with a new, responsive, mobile-first approach and strategy.
+                    </p>
+                    <a href="#" style="color: rgb(99, 99, 184); font-size: 17px;">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Backed project</h2>
+                    <p> I also Define a Schema & Logic of relational Database , I Use language for backend is Mysql and Php.After few months, I was able to
+                        get my hands on various technologies like NodeJS , Python And MongoDB 
+                    </p>
+                    <a href="#" style="color: rgb(99, 99, 184); font-size: 17px;">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>DSA</h2>
+                    <p> I very familar with Data Structure And Algorithms, And I practice in leetcode every day and solve the problem with Java Programming, 
+                        Regulary Follow a sheet of fraz to solve all the question Sequential, to see my profile in leetcode : Click learn more
+                    </p>
+                    <a href="https://leetcode.com/Rijvan/" style="color: rgb(99, 99, 184); font-size: 17px;">Leet Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------- portfolio ----------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="images/work-3.png" alt="g">
+                <div class="layer">
+                    <h3>Notes website</h3>
+                    <p>Welcome to our new notes website, designed to make note-taking easier and more convenient for you. With our website, you can add, edit, and delete notes with just a few clicks</p>
+                    <a href="https://rijvan-notes.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png" alt="g">
+                <div class="layer">
+                    <h3>Portfolia Website</h3>
+                    <p>In this Website technology useing is HTML5, CSS3, JAVASCRIPT </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/workh.jpg" alt="g">
+                <div class="layer">
+                    <h3></h3>
+                    <p>Beats Headphone</p>
+                    <p>This project was a significant learning experience for me. Working on the project helped me gain confidence in my abilities and allowed me to learn new techniques and tools that will be useful in future projects.</p>
+                    <a href="https://rijvan-project6.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------------contact------------------- -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a href = "mailto: abc@example.com" id="rijvanmail">avb9924@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 0000000000</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_rijvan_juneja/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/juneja-rijvan-b19a6b205"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://t.me/Rijvan_Juneja"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Hey..! Rijvan Add me in Group "></textarea>
+                    <div class="btnfull">
+                    <button type="submit" class="btn btn2">Submit</button></div>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Rijvan. Disclaimer under Section 107 </p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+                sidemenu.style.right="0";
+        }
+        function closemenu(){
+                sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxRWT9cxAFLVezXKA1FonCCq8sVCwe4PY1ciK4YmMsT0misO4cN12IkD1v_CexlYFubYQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        constmsg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully ! we are contact soon ";
+                setTimeout(function(){
+                    msg.innerHTML="";
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Rijvan Juneja.","Programmer","Rijvan Juneja","Programmer","Rijvan Juneja","Programmer"],
+                typeSpeed: 97,
+                backSpeed: 97,
+                loop: true
+            })
+      </script>
+</body>
+
+</html>
